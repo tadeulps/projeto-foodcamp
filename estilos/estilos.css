@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
 
+body{
+  font-family: 'Roboto';
+  background-color: #e5e5e5;
+}
 .topo{
   background-color: #CF2B2B;
   width: 100%;
@@ -8,11 +12,11 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  position: fixed;
+  top: 0;
 }
 .conteudo-topo{
 margin-left: 21px;
-
-
 }
 .titulo{
   font-family:'Righteous';
@@ -21,7 +25,45 @@ margin-left: 21px;
   
 }
 .subtitulo{
-  font-family: 'Roboto';
   font-size: 18px;
   line-height: 22px;
 }
+.container{
+  margin-top:123px ;
+  margin-left: 18px;
+}
+.titulo-categoria{
+  font-family:'Righteous';
+  font-size: 26px;
+  margin-bottom: 17px;
+}
+
+.caixa-de-opcoes{
+  display: flex;
+  overflow-x: scroll;
+  margin-bottom: 27px;
+}
+.opcoes{
+margin-right: 16px;
+padding: 16px 14px 13px 14px;
+background-color:#ffffff;
+border-radius: 9px;
+}
+.opcoes img{
+  width: 144px;
+  border-radius: 4px;
+}
+h2{
+  font-weight: bold;
+  font-size: 16px;
+}
+h3{
+  font-weight: 300;
+  font-size: 15px;
+  color: #a6a6a6;
+}
+.preço{
+  font-size: 16px;
+  font-weight: 400;
+}
+
