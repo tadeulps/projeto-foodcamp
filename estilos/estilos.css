@@ -30,25 +30,32 @@ margin-left: 21px;
 }
 .container{
   margin-top:123px ;
-  margin-left: 18px;
+  
   margin-bottom: 98px;
 }
 .titulo-categoria{
   font-family:'Righteous';
   font-size: 26px;
   margin-bottom: 17px;
+  padding-left: 18px;
 }
 
 .caixa-de-opcoes{
+ 
   display: flex;
   overflow-x: scroll;
   margin-bottom: 27px;
+  padding-left: 18px;
+
 }
 .opcoes{
 margin-right: 16px;
 padding: 16px 14px 13px 14px;
 background-color:#ffffff;
 border-radius: 9px;
+
+
+
 }
 .opcoes img{
   width: 144px;
