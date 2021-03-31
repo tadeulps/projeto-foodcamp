@@ -31,6 +31,7 @@ margin-left: 21px;
 .container{
   margin-top:123px ;
   margin-left: 18px;
+  margin-bottom: 108px;
 }
 .titulo-categoria{
   font-family:'Righteous';
@@ -52,18 +53,44 @@ border-radius: 9px;
 .opcoes img{
   width: 144px;
   border-radius: 4px;
+  margin-bottom: 8px;
+}
+.descrição{
+  width: 144px;
 }
 h2{
   font-weight: bold;
   font-size: 16px;
+  margin-bottom: 4px;
 }
 h3{
   font-weight: 300;
   font-size: 15px;
   color: #a6a6a6;
+  line-height: 17px;
+  margin-bottom: 5px;
 }
 .preço{
   font-size: 16px;
   font-weight: 400;
+}
+.barra-inferior{
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color:#ffffff;
+  height: 92px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra-inferior p{
+  background-color: #cbcbcb;
+  width: 90vw;
+  padding: 15px 25px 16px 25px;
+  border-radius:50px ;
+  text-align: center;
+  color: #ffffff;
+
 }
 
