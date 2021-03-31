@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 body{
   font-family: 'Roboto';
   background-color: #e5e5e5;
@@ -31,7 +31,7 @@ margin-left: 21px;
 .container{
   margin-top:123px ;
   margin-left: 18px;
-  margin-bottom: 108px;
+  margin-bottom: 98px;
 }
 .titulo-categoria{
   font-family:'Righteous';
@@ -52,11 +52,19 @@ border-radius: 9px;
 }
 .opcoes img{
   width: 144px;
+  height: 100px;
   border-radius: 4px;
   margin-bottom: 8px;
 }
 .descrição{
   width: 144px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.descrição:nth-child(2){
+  height: 80px;
 }
 h2{
   font-weight: bold;
@@ -79,15 +87,15 @@ h3{
   width: 100%;
   bottom: 0;
   background-color:#ffffff;
-  height: 92px;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .barra-inferior p{
   background-color: #cbcbcb;
-  width: 90vw;
-  padding: 15px 25px 16px 25px;
+  width: 87vw;
+  padding: 10px 10px;
   border-radius:50px ;
   text-align: center;
   color: #ffffff;
