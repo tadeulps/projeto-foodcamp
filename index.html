@@ -29,8 +29,8 @@
       Primeiro, seu prato
     </div>
 
-    <div class="caixa-de-opcoes">
-      <div class="opcoes">
+    <div class="caixa-de-opcoes comida">
+      <div class="opcoes strogonoff" onclick="selecionarComida('strogonoff')" >
         <img src="imagens/strogonoff.jpg">
         <div class="descrição">
           <h2>Strogonoff de frango</h2>
@@ -39,7 +39,7 @@
             R$ 29,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes  xadrez" onclick="selecionarComida('xadrez')">
         <img src="imagens/xadrez.jpg">
         <div class="descrição">
           <h2>Frango Xadrez</h2>
@@ -48,7 +48,7 @@
             R$ 39,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes yakisoba" onclick="selecionarComida('yakisoba')">
         <img src="imagens/yakisoba.jpeg">
         <div class="descrição">
           <h2>Yakisoba misto</h2>
@@ -57,7 +57,7 @@
             R$ 49,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes file" onclick="selecionarComida('file')">
         <img src="imagens/file.jpg">
         <div class="descrição">
           <h2>Filé de frango à parmegiana</h2>
@@ -72,37 +72,37 @@
       Agora, sua bebida
     </div>
 
-    <div class="caixa-de-opcoes">
-      <div class="opcoes">
+    <div class="caixa-de-opcoes bebida">
+      <div class="opcoes fanta" onclick="selecionarBebida('fanta')">
         <img src="imagens/refrigerante-fanta-uva-lata-350ml.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Fanta uva</h2>
           <h3>Lata 350ml</h3>
           <p class="preço">
             R$ 14,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes eisen" onclick="selecionarBebida('eisen')">
         <img src="imagens/eisenbahn2.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Eisenbahn</h2>
           <h3>Lata 350ml</h3>
           <p class="preço">
             R$ 24,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes hocus" onclick="selecionarBebida('hocus')">
         <img src="imagens/hocus.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Hocus pocus</h2>
           <h3>500ml de cerveja artesanal</h3>
           <p class="preço">
             R$ 34,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes citrus" onclick="selecionarBebida('citrus')">
         <img src="imagens/foto_original.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Schweppes Citrus</h2>
           <h3>Lata 350ml</h3>
           <p class="preço">
@@ -114,38 +114,38 @@
     <div class="titulo-categoria">
       Por fim, sua sobremesa
     </div>
-    
-    <div class="caixa-de-opcoes" >
-      <div class="opcoes">
+
+    <div class="caixa-de-opcoes sobremesa">
+      <div class="opcoes petit"  onclick="selecionarSobremesa('petit')" onclick="selecionarSobremesa('petit')">
         <img src="imagens/petit.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Petit gateau</h2>
           <h3>Petit gateau com sorvete</h3>
           <p class="preço">
             R$ 11,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes lemon"  onclick="selecionarSobremesa('lemon')">
         <img src="imagens/lemon.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Torta de limão</h2>
           <h3>Pedaço de torta de limão</h3>
           <p class="preço">
             R$ 12,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes pave"  onclick="selecionarSobremesa('pave')">
         <img src="imagens/pave.jpg.png">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Pavê de oreo</h2>
           <h3>Pavê de oreo num pote</h3>
           <p class="preço">
             R$ 13,90</p>
         </div>
       </div>
-      <div class="opcoes">
+      <div class="opcoes pudim"  onclick="selecionarSobremesa('pudim')">
         <img src="imagens/pudim.jpg">
-                <div class="descrição">
+        <div class="descrição">
           <h2>Pudim</h2>
           <h3>Pedaço de pudim</h3>
           <p class="preço">
@@ -157,7 +157,7 @@
   </div>
 
   <div class="barra-inferior">
-    <p> Selecione os 3 itens <br>  para fechar o pedido</p>
+    <p> Selecione os 3 itens <br> para fechar o pedido</p>
 
   </div>
 
@@ -171,4 +171,7 @@
 
 </body>
 
+<script src="script.js">
+
+</script>
 </html>
