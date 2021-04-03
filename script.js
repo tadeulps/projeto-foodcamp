@@ -18,9 +18,6 @@ function selecionarComida(classeBotao){
   final()
   
 }
-//const seletor = "." + classeBotao;
-//const botao = document.querySelector(seletor);
-//botao.classList.add('selecionado');
 function selecionarBebida(classeBotao){
   const selecionado = document.querySelector(".bebida .selecionado");
   if(selecionado!==null){
@@ -47,10 +44,10 @@ function selecionarSobremesa(classeBotao){
 
 function final(){
   if(teste1==1 && teste2==2 && teste3==3){
-    alert(teste1);
     const inf =document.querySelector(".botao");
-    inf.innerHTML="Fechar pedido"
+    inf.innerHTML='<a href="https://www.google.com.br/">Fechar pedido</a>'
     inf.classList.add('clicavel');
+
 
 }
 }
