@@ -59,7 +59,7 @@ function final(){
       Total: R$ ${preçototal.toFixed(2).replace('.',',')}`;
     const textoEncode=encodeURI(texto);
     const link=`https://wa.me/5521971794262?text=${textoEncode}`
-    inf.innerHTML=`<a href="https://wa.me/5521971794262?text=${textoEncode}">Fechar pedido</a>`
+    inf.innerHTML=`<a href="https://wa.me/5521971794262?text=${textoEncode}"><p>Fechar pedido</p></a>`
 
     
    
